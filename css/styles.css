@@ -515,15 +515,22 @@ body {
   width: auto;
   text-align: center;
   margin: 1rem 0;
-  -webkit-width: auto;
-  -webkit-text-align: center;
-  -webkit-margin: 1rem 0;
 }
 .footer-contact-holder p {
+  color: #bca87b;
   margin: 0;
   padding: 0;
   -webkit-margin: 0;
   -webkit-padding: 0;
+}
+
+.footer-number {
+  text-decoration: none;
+  color: #bca87b;
+}
+.footer-number:hover {
+  text-decoration: none;
+  color: #bca87b;
 }
 
 /*# sourceMappingURL=styles.css.map */
