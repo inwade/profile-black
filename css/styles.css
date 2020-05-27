@@ -1,0 +1,86 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.my-info-block {
+  background-color: #181c27;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15% 0 10% 0;
+}
+
+.photo-name {
+  display: block;
+  text-align: center;
+  margin: 0 20%;
+}
+
+.photo-name img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.photo-name h1 {
+  font-weight: 600;
+  color: #e2a83b;
+  margin: 0;
+}
+
+.photo-name p {
+  font-size: 24px;
+}
+
+.hidden-replica {
+  color: #ced3e6;
+  opacity: 0.8;
+  font-size: 16px;
+  font-style: italic;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .my-info-block {
+    padding: 15% 0 20% 0;
+  }
+}
+@media (max-width: 425px) {
+  .photo-name img {
+    width: 100px;
+  }
+}
+.contacts-block {
+  width: 100%;
+  background-color: #181c27;
+  padding: 0% 10% 5% 10%;
+}
+
+.contact-icon {
+  width: auto;
+  margin: 0 1rem;
+}
+.contact-icon:hover {
+  text-decoration: none;
+}
+
+.contact-icon img {
+  width: 20px;
+}
+
+@media (max-width: 425px) {
+  .contacts-block {
+    padding: 0 0 5% 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

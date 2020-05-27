@@ -1,0 +1,34 @@
+<svg width="384" height="384" xmlns="http://www.w3.org/2000/svg">
+
+ <g class="currentLayer">
+  <title>Layer 1</title>
+  <g fill="#ffffff" class="selected" id="svg_1">
+   <g fill="#ffffff" id="svg_2">
+    <path fill="#e2a83b" id="svg_3" d="m353.188,252.052c-23.51,0 -46.594,-3.677 -68.469,-10.906c-10.719,-3.656 -23.896,-0.302 -30.438,6.417l-43.177,32.594c-50.073,-26.729 -80.917,-57.563 -107.281,-107.26l31.635,-42.052c8.219,-8.208 11.167,-20.198 7.635,-31.448c-7.26,-21.99 -10.948,-45.063 -10.948,-68.583c0.001,-16.991 -13.822,-30.814 -30.812,-30.814l-70.52,0c-16.99,0 -30.813,13.823 -30.813,30.813c0,194.75 158.438,353.187 353.188,353.187c16.99,0 30.813,-13.823 30.813,-30.813l0,-70.323c-0.001,-16.989 -13.824,-30.812 -30.813,-30.812z"/>
+   </g>
+  </g>
+  <g id="svg_4"/>
+  <g id="svg_5"/>
+  <g id="svg_6"/>
+  <g id="svg_7"/>
+  <g id="svg_8"/>
+  <g id="svg_9"/>
+  <g id="svg_10"/>
+  <g id="svg_11"/>
+  <g id="svg_12"/>
+  <g id="svg_13"/>
+  <g id="svg_14"/>
+  <g id="svg_15"/>
+  <g id="svg_16"/>
+  <g id="svg_17"/>
+  <g id="svg_18"/>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <rect fill="none" y="0" x="0" height="100%" width="100%" id="backgroundrect"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+</svg>
