@@ -507,6 +507,11 @@ body {
   font-size: 1.25rem;
 }
 
+@media (max-width: 768px) {
+  .download-block {
+    padding: 0 0 20% 0;
+  }
+}
 @media (max-width: 425px) {
   .download-form button {
     width: 150px;
