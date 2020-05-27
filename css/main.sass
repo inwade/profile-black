@@ -15,6 +15,7 @@ body
     margin: 0
     padding: 0
     overflow-x: hidden
+
 // First block Styles
 .my-info-block
     background-color: $dark
@@ -47,15 +48,32 @@ body
     font-size: 16px
     font-style: italic
     display: block
+// Media breakpoints for the photo-name block
 @media (max-width: 768px)
     .my-info-block
-        padding: 15% 0 20% 0
+        padding: 25% 0
 
 @media (max-width: 425px)
+    .my-info-block
+        padding: 40% 0
+    .photo-name h1
+        font-size: 2rem
+    .photo-name p
+        font-size: 1.125rem
+    .hidden-replica
+        font-size: 0.875rem
     .photo-name img
         width: 100px
-
-// Contact icons
+@media (max-width: 340px)
+    .my-info-block
+        padding: 50% 0
+    .photo-name h1
+        font-size: 1.625rem
+    .photo-name p
+        font-size: 1rem
+    .hidden-replica
+        font-size: 0.75rem
+// Contact icons of the first block
 .contacts-block
     width: 100%
     background-color: $dark
@@ -69,8 +87,13 @@ body
 
 .contact-icon img
     width: 20px
-
+// Media breakpoints for the first block contacts
 @media (max-width: 425px)
     .contacts-block
         padding: 0 0 5% 0
         text-align: center
+// End of the first block styles
+
+
+// Secon block styles
+

@@ -50,12 +50,45 @@ body {
 
 @media (max-width: 768px) {
   .my-info-block {
-    padding: 15% 0 20% 0;
+    padding: 25% 0;
   }
 }
 @media (max-width: 425px) {
+  .my-info-block {
+    padding: 40% 0;
+  }
+
+  .photo-name h1 {
+    font-size: 2rem;
+  }
+
+  .photo-name p {
+    font-size: 1.125rem;
+  }
+
+  .hidden-replica {
+    font-size: 0.875rem;
+  }
+
   .photo-name img {
     width: 100px;
+  }
+}
+@media (max-width: 340px) {
+  .my-info-block {
+    padding: 50% 0;
+  }
+
+  .photo-name h1 {
+    font-size: 1.625rem;
+  }
+
+  .photo-name p {
+    font-size: 1rem;
+  }
+
+  .hidden-replica {
+    font-size: 0.75rem;
   }
 }
 .contacts-block {
