@@ -427,6 +427,14 @@ body {
     margin: 10% 0;
   }
 
+  .one-half-adds {
+    width: 40%;
+  }
+
+  .skill-block-header {
+    height: 20%;
+  }
+
   .skill-name-holder {
     width: 50%;
     padding: 0 0 0 20%;
@@ -481,14 +489,6 @@ body {
 
   .skill-line-holder {
     width: 60%;
-  }
-
-  .one-half-adds {
-    width: 40%;
-  }
-
-  .skill-block-header {
-    height: 20%;
   }
 
   .half-p p {
