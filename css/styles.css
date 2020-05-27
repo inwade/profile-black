@@ -491,6 +491,29 @@ body {
     font-size: 0.875rem;
   }
 }
+.download-block {
+  text-align: center;
+  padding: 0 0 10% 0;
+}
+
+.download-form button {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #e2a83b;
+  color: #181c27;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 425px) {
+  .download-form button {
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
 .footer {
   width: 100%;
   color: #bca87b;
