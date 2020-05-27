@@ -25,18 +25,15 @@ body {
   text-align: center;
   margin: 0 20%;
 }
-
 .photo-name img {
   width: 150px;
   border-radius: 50%;
 }
-
 .photo-name h1 {
   font-weight: 600;
   color: #e2a83b;
   margin: 0;
 }
-
 .photo-name p {
   font-size: 24px;
 }
@@ -62,17 +59,15 @@ body {
   .photo-name h1 {
     font-size: 2rem;
   }
-
   .photo-name p {
     font-size: 1.125rem;
+  }
+  .photo-name img {
+    width: 100px;
   }
 
   .hidden-replica {
     font-size: 0.875rem;
-  }
-
-  .photo-name img {
-    width: 100px;
   }
 }
 @media (max-width: 340px) {
@@ -83,7 +78,6 @@ body {
   .photo-name h1 {
     font-size: 1.625rem;
   }
-
   .photo-name p {
     font-size: 1rem;
   }
@@ -95,7 +89,8 @@ body {
 .contacts-block {
   width: 100%;
   background-color: #181c27;
-  padding: 0% 10% 5% 10%;
+  padding: 0 0 5% 0;
+  text-align: center;
 }
 
 .contact-icon {
@@ -105,7 +100,6 @@ body {
 .contact-icon:hover {
   text-decoration: none;
 }
-
 .contact-icon img {
   width: 20px;
 }
@@ -127,7 +121,6 @@ body {
   width: 50%;
   text-align: center;
 }
-
 .about-me-photo img {
   width: 300px;
   border-radius: 50%;
@@ -139,14 +132,12 @@ body {
   color: #ffffff;
   line-height: 200%;
 }
-
 .about-me-text h3 {
   color: #e2a83b;
   font-size: 2.5rem;
   text-align: left;
   margin: 0;
 }
-
 .about-me-text p {
   text-align: left;
   margin: 10% 0;
@@ -156,7 +147,6 @@ body {
   display: inline-flex;
   width: auto;
 }
-
 .about-me-achievements img {
   border-radius: 0;
   width: 50px;
@@ -169,7 +159,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .achieve-holder span {
   line-height: 100%;
   margin-top: 1rem;
@@ -209,12 +198,10 @@ body {
     width: 100%;
     text-align: center;
   }
-
   .about-me-text h3 {
     margin-top: 5%;
     text-align: center;
   }
-
   .about-me-text p {
     text-align: center;
   }
@@ -273,7 +260,6 @@ body {
   justify-content: space-between;
   margin: 0;
 }
-
 .half-p p {
   margin: 0;
 }
@@ -285,7 +271,6 @@ body {
   justify-content: space-between;
   margin: 0;
 }
-
 .half-img img {
   width: 30px;
 }
@@ -364,7 +349,6 @@ body {
 .skill-name-holder {
   width: 30%;
 }
-
 .skill-name-holder p {
   font-weight: bold;
   font-size: 1.5rem;
@@ -479,12 +463,11 @@ body {
     height: 20%;
   }
 
-  .half-img img {
-    width: 20px;
-  }
-
   .half-img {
     align-items: flex-end;
+  }
+  .half-img img {
+    width: 20px;
   }
 }
 @media (max-width: 350px) {
@@ -503,6 +486,33 @@ body {
   .half-p p {
     font-size: 0.875rem;
   }
+}
+.footer {
+  width: 100%;
+  border-opacity: 0.5;
+  color: #bca87b;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer-contacts {
+  text-align: center;
+  padding: 0 0 5% 0;
+}
+
+.footer-contact-holder {
+  width: auto;
+  text-align: center;
+  margin: 1rem 0;
+}
+.footer-contact-holder p {
+  margin: 0;
+  padding: 0;
+}
+.footer-contact-holder h5 {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -30,18 +30,15 @@ body
     display: block
     text-align: center
     margin: 0 20%
-
-.photo-name img
-    width: 150px
-    border-radius: 50%
-
-.photo-name h1
-    font-weight: 600
-    color: $gold
-    margin: 0
-
-.photo-name p
-    font-size: 24px
+    img
+        width: 150px
+        border-radius: 50%
+    h1
+        font-weight: 600
+        color: $gold
+        margin: 0
+    p
+        font-size: 24px
 
 .hidden-replica
     color: $grey
@@ -57,38 +54,39 @@ body
 @media (max-width: 425px)
     .my-info-block
         padding: 40% 0
-    .photo-name h1
-        font-size: 2rem
-    .photo-name p
-        font-size: 1.125rem
+    .photo-name
+        h1
+            font-size: 2rem
+        p
+            font-size: 1.125rem
+        img
+            width: 100px
     .hidden-replica
         font-size: 0.875rem
-    .photo-name img
-        width: 100px
 @media (max-width: 340px)
     .my-info-block
         padding: 50% 0
-    .photo-name h1
-        font-size: 1.625rem
-    .photo-name p
-        font-size: 1rem
+    .photo-name 
+        h1
+            font-size: 1.625rem
+        p
+            font-size: 1rem
     .hidden-replica
         font-size: 0.75rem
 // Contact icons of the first block
 .contacts-block
     width: 100%
     background-color: $dark
-    padding: 0% 10% 5% 10%
+    padding: 0 0 5% 0
+    text-align: center
 
 .contact-icon
     width: auto
     margin: 0 1rem
     &:hover
         text-decoration: none
-
-.contact-icon img
-    width: 20px
-
+    img
+        width: 20px
 // Media breakpoints for the first block contacts
 @media (max-width: 425px)
     .contacts-block
@@ -106,37 +104,37 @@ body
 .about-me-photo
     width: 50%
     text-align: center
-.about-me-photo img
-    width: 300px
-    border-radius: 50%
+    img
+        width: 300px
+        border-radius: 50%
 .about-me-text
     width: 50%
     margin: 0
     color: $white
     line-height: 200%
-.about-me-text h3
-    color: $gold
-    font-size: 2.5rem
-    text-align: left
-    margin: 0
-.about-me-text p
-    text-align: left
-    margin: 10% 0
+    h3
+        color: $gold
+        font-size: 2.5rem
+        text-align: left
+        margin: 0
+    p
+        text-align: left
+        margin: 10% 0
 .about-me-achievements
     display: inline-flex
     width: auto
-.about-me-achievements img
-    border-radius: 0
-    width: 50px
+    img
+        border-radius: 0
+        width: 50px 
 .achieve-holder
     min-width: 150px
     margin: 0 5%
     display: flex
     flex-direction: column
     align-items: center
-.achieve-holder span
-    line-height: 100%
-    margin-top: 1rem
+    span
+        line-height: 100%
+        margin-top: 1rem 
 // Media breakpoints for About me section
 
 @media (max-width: 1100px)
@@ -162,11 +160,11 @@ body
     .about-me-text
         width: 100%
         text-align: center
-    .about-me-text h3
-        margin-top: 5%
-        text-align: center
-    .about-me-text p
-        text-align: center
+        h3
+            margin-top: 5%
+            text-align: center
+        p
+            text-align: center
 @media (max-width: 425px)
     .about-me-photo
         margin: 25% 0
@@ -214,16 +212,16 @@ body
     flex-direction: column
     justify-content: space-between
     margin: 0
-.half-p p
-    margin: 0
+    p
+        margin: 0
 .half-img
     width: 30%
     display: flex
     flex-direction: column
     justify-content: space-between
     margin: 0
-.half-img img
-    width: 30px
+    img
+        width: 30px
 .loader
     font-size: 10px
     text-indent: -9999em
@@ -288,11 +286,11 @@ body
     width: 40%
 .skill-name-holder
     width:30%
-.skill-name-holder p
-    font:
-        weight: bold
-        size: 1.5rem
-    margin: 10px    
+    p
+        font:
+            weight: bold
+            size: 1.5rem
+        margin: 10px  
 .skill-line-holder
     width:70%
     display: flex
@@ -361,10 +359,10 @@ body
         width:40%
     .skill-block-header
         height: 20%
-    .half-img img
-        width: 20px
     .half-img
         align-items: flex-end
+        img
+            width: 20px
 @media (max-width: 350px)
     .empty-skill-line
         width: 150px
@@ -375,3 +373,26 @@ body
     .half-p p
         font-size: 0.875rem
 // End of the third block Skills 
+
+// Footer
+.footer
+    width: 100%
+    border-opacity: 0.5
+    color: $bronze
+    display: flex
+    flex-direction: column
+    padding: 0
+.footer-contacts
+    text-align: center
+    padding: 0 0 5% 0
+.footer-contact-holder 
+    width: auto
+    text-align: center
+    margin: 1rem 0
+    p
+        margin: 0
+        padding: 0
+    h5
+        margin: 0 
+        padding: 0
+        

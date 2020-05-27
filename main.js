@@ -45,7 +45,35 @@ let aboutMeBlockCoord = aboutMeBlock.getBoundingClientRect()
 let scrollForFill = (myInfoCoord.height + contactCoord.height + aboutMeBlockCoord.height) / 2;
 let skillLineFill = document.querySelectorAll('.fill-skill-line')
 
+// footer icons hover
+let githubFooterIcon = document.querySelector('.github-footer')
+let instagramFooterIcon = document.querySelector('.instagram-footer')
+let telegramFooterIcon = document.querySelector('.telegram-footer')
 
+function mouseOver (event) {
+    let img = event.target.closest('img');
+if (img != null) {
+    let iconName = img.classList[0].split('-')[0];
+    img.src =`./svg/${iconName}-footer-bronze.svg`;
+}
+}
+function mouseOut (event) {
+    let img = event.target.closest('img')
+ if (img != null) {
+    let iconName = img.classList[0].split('-')[0];
+    img.src = `./svg/${iconName}-footer-white.svg`;
+}
+}
+githubFooterIcon.onmouseover = mouseOver;
+githubFooterIcon.onmouseout = mouseOut;
+instagramFooterIcon.onmouseover = mouseOver;
+instagramFooterIcon.onmouseout = mouseOut;
+telegramFooterIcon.onmouseover = mouseOver;
+telegramFooterIcon.onmouseout = mouseOut;
+
+
+
+// Event listeners on document scroll
 document.onscroll = function () {
     if (stoper == false && window.pageYOffset >= scrollAboutMeToAppear) {
     stoper = true
